@@ -1,3 +1,122 @@
 /* ********* */
 /* @HOME */
 /* ********* */
+
+/* ********* */
+/* @HOME */
+/* ********* */
+
+*{
+
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+    }
+    
+    .main{
+    justify-content: space-around;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    
+    
+    }
+    .derecha{
+        margin-top: 100px;
+      
+    padding-right: 40px;
+    }
+        .centrado{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 1000px;
+        padding: 30px;
+    
+        }
+        h1{
+    font-size: 40px;
+    
+        }
+    
+        h4{
+    
+            font-size: 20px;
+            color:grey;
+            padding: 10px;
+    
+        }
+        .caja{
+    margin-left:10px;
+    color: #2089df;
+            border: 3px solid #2089df; /*color naranja para el borde*/ 
+              border-top:0px ;
+              border-right:0px ;
+              border-bottom: 0px;
+              padding: 20px; 
+        }
+        .boton{
+    color: honeydew;
+    background-color: #2089df;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    
+        }
+    
+    .abajo{
+    
+        justify-content: space-around;
+        background-color: rgb(243, 243, 243);
+        display: flex;
+        width: 100%;
+        height: 1000px;
+    
+        }
+        .izquierda-abajo{
+            margin-top: 50px;
+    
+            padding-left: 40px;
+        }
+        .derecha-abajo{
+    
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 1000px;
+            padding: 30px;
+            margin:20px;
+    
+        }
+        .estrecho{
+            width: 90%;
+            padding: 10px;
+            margin: 20px;
+        }
+        ul{
+            list-style:none;
+            margin-top: 20px;
+            display: flex;
+            flex-flow: column;
+          
+        }
+        .check{
+    
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+        }
+        
+        li{
+            padding: 11px;
+            font-size: 20px;
+            color:grey
+        }
+    
+        
+        
